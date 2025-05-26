@@ -33,10 +33,10 @@ body {
     background-attachment: fixed;
     color: var(--text-light);
     line-height: 1.7; /* Adjusted */
-    letter-spacing: 1.2px; /* Added for tech feel */
+    letter-spacing: 1.5px; /* Added for tech feel */
     position: relative; /* For ::before pseudo-element */
     z-index: 0; /* Establish stacking context */
-    font-size: 18px; /* Increased base font size */
+    font-size: 20px; /* Increased base font size */
 }
 
 body::before {
@@ -90,7 +90,7 @@ body::before {
     padding-bottom: 10px;
     margin-top: 40px;
     margin-bottom: 20px;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
     font-size: 2.6rem; /* Increased heading size */
 }
 
